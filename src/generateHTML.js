@@ -31,7 +31,7 @@ function generateCards(site) {
                             <ul class="justify-item-center">
                                 <li class="list-group-item">${engineer.getId()}</li>
                                 <li class="list-group-item">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
-                                <li class="list-group-item">Github: ${engineer.getGithub()}</li>
+                                <li class="list-group-item">Github: <a href="http://www.github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></li>
                             </ul>
                         </div>
                     </div>`;

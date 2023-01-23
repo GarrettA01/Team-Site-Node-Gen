@@ -166,7 +166,7 @@ function finishedTeam() {
   console.log(
     "Your team's website has been generated. You can access it in the dist folder."
   );
-  fs.writeFile(`./dist/${myTeam[0]}.html`, generateSite(myTeam));
+  fs.writeFile(`programSite.html`, generateSite(myTeam));
 }
 
 startProgram();
