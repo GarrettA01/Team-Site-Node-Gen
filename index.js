@@ -164,9 +164,9 @@ function addIntern() {
 
 function finishedTeam() {
   console.log(
-    "Your team's website has been generated. You can access it in the dist folder."
+    "Your team's website has been generated! You can access it in the dist directory."
   );
-  fs.writeFile(`programSite.html`, generateCards(myTeam));
+  fs.writeFileSync(`./generate/${myTeam[0]}.html`, generateCards(myTeam));
 }
 
 startProgram();
