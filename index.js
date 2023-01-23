@@ -164,7 +164,7 @@ function addIntern() {
 
 function finishedTeam() {
   console.log(
-    "Your team's website has been generated! You can access it in the dist directory."
+    "Your team's website has been generated! You can access it in the generate directory."
   );
   fs.writeFileSync(`./generate/${myTeam[0]}.html`, generateCards(myTeam));
 }
