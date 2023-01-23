@@ -8,7 +8,7 @@ describe("Employee", () => {
 
   it("should fetch employee id with getId method", () => {
     const newb2 = new Employee("Jack", 09, "jack@gmail.com");
-    expect(newb2.getId()).toEqual(38);
+    expect(newb2.getId()).toEqual(09);
   });
 
   it("should fetch employee email with getEmail method", () => {
