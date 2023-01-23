@@ -7,12 +7,12 @@ describe("Employee", () => {
   });
 
   it("should fetch employee id with getId method", () => {
-    const newb2 = new Employee("Jack", 09, "jack@gmail.com");
-    expect(newb2.getId()).toEqual(09);
+    const newb2 = new Employee("Jack", 29, "jack@gmail.com");
+    expect(newb2.getId()).toEqual(29);
   });
 
   it("should fetch employee email with getEmail method", () => {
-    const newb3 = new Employee("Heather", 03, "heather@gmail.com");
+    const newb3 = new Employee("Heather", 87, "heather@gmail.com");
     expect(newb3.getEmail()).toEqual("heather@gmail.com");
   });
 
