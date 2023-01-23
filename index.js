@@ -4,6 +4,7 @@ const Employee = require("./lib/employee");
 const Engineer = require("./lib/engineer");
 const Intern = require("./lib/intern");
 const Manager = require("./lib/manager");
+const generateCards = require("./src/createHTML");
 
 const myTeam = [];
 
@@ -163,7 +164,7 @@ function addIntern() {
 
 function finishedTeam() {
   console.log(
-    "Your team's website has been generated! You can access it in the dist directory."
+    "Your team's website has been generated. You can access it in the dist folder."
   );
   fs.writeFile(`./dist/${myTeam[0]}.html`, generateSite(myTeam));
 }
